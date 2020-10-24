@@ -233,10 +233,10 @@ echo " Установка KDE и набора программ "
 
 # Последний вариант
 
-pacman -Sy yay -S plasma pulseaudio-alsa pulseaudio alsa dolphin konsole kate ark 
+pacman -Sy yay -S plasma pulseaudio-alsa pulseaudio alsa dolphin konsole kate ark neofetch 
 pacman -S sddm xorg base linux linux-firmware base-devel nano sudo networkmanager dhcpcd grub 
-pacman -S git wget yajl pavucontrol neofetch opencl-nvidia lib32-opencl-nvidia lib32-nvidia-utils
-pacman -S ttf-dejavu ttf-opensans unrar qbittorrent zsh gwenview gzip kfind lib32-freetype2
+pacman -S git wget yajl pavucontrol opencl-nvidia lib32-opencl-nvidia lib32-nvidia-utils
+pacman -S ttf-dejavu ttf-opensans unrar qbittorrent zsh gwenview gzip lib32-freetype2
 pacman -S gtk-engine-murrine telegram-desktop terminus-font terminus-font-otb 
 
 pacman -Rns bluedevil discover plasma-thunderbolt bolt --noconfirm
