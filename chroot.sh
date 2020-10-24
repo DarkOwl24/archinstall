@@ -237,7 +237,7 @@ pacman -Sy yay -S plasma pulseaudio-alsa pulseaudio alsa dolphin konsole kate ar
 pacman -S sddm xorg base linux linux-firmware base-devel nano sudo networkmanager dhcpcd grub 
 pacman -S git wget yajl pavucontrol neofetch opencl-nvidia lib32-opencl-nvidia lib32-nvidia-utils
 pacman -S ttf-dejavu ttf-opensans unrar qbittorrent zsh gwenview gzip kfind lib32-freetype2
-pacman -S gtk-engine-murrine elegram-desktop terminus-font terminus-font-otb 
+pacman -S gtk-engine-murrine telegram-desktop terminus-font terminus-font-otb 
 
 pacman -Rns bluedevil discover plasma-thunderbolt bolt --noconfirm
 
