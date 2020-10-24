@@ -752,7 +752,7 @@ do
 done
 if [[ $int == 1 ]]; then
 
-  wget -P /mnt https://raw.githubusercontent.com/alexgantera/arch/master/chroot.sh
+  wget -P /mnt https://raw.githubusercontent.com/DarkOwl24/archinstall/main/chroot.sh
   chmod +x /mnt/chroot.sh 
   echo 'первый этап готов ' 
   echo 'ARCH-LINUX chroot' 
@@ -764,7 +764,7 @@ echo "################################################################"
 umount -a
 reboot    
   elif [[ $int == 2 ]]; then
-  arch-chroot /mnt sh -c "$(curl -fsSL https://raw.githubusercontent.com/alexgantera/arch/master/chroot.sh)"
+  arch-chroot /mnt sh -c "$(curl -fsSL https://raw.githubusercontent.com/DarkOwl24/archinstall/main/chroot.sh)"
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
