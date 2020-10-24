@@ -1,2 +1,1 @@
-# archinstall
-ArchLinux-KDE Install
+# ArchLinux KDE
